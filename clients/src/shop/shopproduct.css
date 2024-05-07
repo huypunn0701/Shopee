@@ -1,0 +1,125 @@
+.order_table3 {
+  border-radius: 4px;
+  font-size: 15px;
+  margin-top: 20px;
+  text-align: center;
+}
+.order_header2 {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  margin-right: 50px;
+  align-items: center;
+}
+.icon__shop {
+  background-color: #f2f2f2;
+  padding: 5px;
+  cursor: pointer;
+}
+.order_header5 {
+  border: 1px solid grey;
+  padding: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: black;
+}
+.order_header5:hover {
+  background-color: #dddcdc;
+}
+
+.icon111:hover {
+  color: red;
+}
+
+.container_right2 {
+  width: 100%;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.container_right2 h3 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.add_products {
+  padding-left: 200px;
+  padding-bottom: 20px;
+}
+
+.add_products .label {
+  color: black;
+  text-align: right;
+  padding-top: 30px;
+}
+.add_products .label1 {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 25px;
+}
+
+.add_products .label1 input {
+  height: 40px;
+  width: 500px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(224, 224, 224);
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.label1 button {
+  color: #fff;
+  position: relative;
+  overflow: visible;
+  outline: 0;
+  background: #ee4d2d;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 30px;
+  font-size: 15px;
+}
+.label1 button:hover {
+  background: #f37259;
+}
+
+.label3 {
+  height: 45px;
+  width: 515px;
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid rgb(224, 224, 224);
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.textarea {
+  font-family: "Helvetica Neue", Helvetica, Arial, 文泉驛正黑,
+    "WenQuanYi Zen Hei", "Hiragino Sans GB", "儷黑 Pro", "LiHei Pro", "Heiti TC",
+    微軟正黑體, "Microsoft JhengHei UI", "Microsoft JhengHei", sans-serif;
+  font-size: 18px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid rgb(224, 224, 224);
+  padding: 10px;
+}
+
+.order_table2222 {
+  background-color: #d3d3d3;
+}
+.tbShop {
+  width: 100%;
+  border-collapse: collapse;
+}
+.theadShop {
+  background-color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+.tdShop {
+  border: 1px solid #ddd;
+  padding: 8px;
+}

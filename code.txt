@@ -1,0 +1,8 @@
+Chạy code:
+Mở file code:
+ - Có 3 file là: clients, payment và server
+ - Cách chạy từng file:
+   - Chuột phải vào folder muốn chạy trong VS code
+   - Chọn Open in Integrated Terminal:
+     - Nhập lệnh: npm run dev - với file clients
+                : npm start - với server và payment

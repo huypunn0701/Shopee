@@ -1,0 +1,144 @@
+.service_home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+.service_home1{
+    text-align: center;
+    width: 140px;
+    align-items: center;
+    transition-duration: 0.7s;
+    display: inline-block; 
+    cursor: pointer;
+}
+.service_home1 p{
+    margin: 1px 0 0 5px;
+    font-size: 15px;
+}
+.service_home1:hover {
+    transform: translateY(-1px); /* Thay đổi từ margin-top thành transform */
+    transition-duration: 0.3s;
+}
+.category__home{
+    background-color: #F5F5F5;
+}
+.category_home{
+    margin: 0 30px;
+    padding-top: 20px;
+    color: #595959;
+}
+.ant-card-head-title{
+    color: #757575;
+}
+.category__home1 img{
+    margin: 20px 20px 0 28px;
+    width: 96%;
+    cursor: pointer;
+}
+
+.top_search{
+    height: 100%;
+    overflow: hidden;
+    margin: 20px 25px 0 25px;
+    background-color: white;
+    
+}
+.top_search1{
+    display: flex;
+    position: relative;
+    height: 100%;
+}
+.top_search1 li {
+    list-style: none;
+    width: 16.6667%;
+    float: left;
+    cursor: pointer;
+    /* text-align: center; */
+  }
+  
+  
+  .top_search1 li p {
+    font-size: 1.1rem;
+    color: #565656;
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: 10px;
+    bottom: 15px
+  }
+  
+.top__search{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+    color: rgb(238,77,45);
+    padding-top: 10px;
+}
+
+.buy_search{
+    color: white;
+    background-color: rgba(117, 117, 117, 0.5);
+    position: relative;
+    bottom: 30px;
+    /* left: 30px; */
+    padding: 2px 20px;
+    opacity: 1;
+}
+
+.sub_today{
+    margin: 20px 30px 40px 30px;
+}
+.sub_today .goiy{
+    text-align: center;
+    border-bottom: 5px solid rgb(238,77,45);
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    color: rgb(238,77,45);
+    width: 97%;
+    padding-right: 30px;
+}
+
+.cart_today{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+}
+
+.end{
+    border-bottom: 5px solid rgb(238,77,45);
+}
+
+.price__description{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.price__description1{
+    font-size: 1rem;
+    color: #ee4d2d;
+    display: flex;
+}
+
+.price__description1 span{
+    font-size: .75rem;
+}
+.price__description{
+   color: rgba(0,0,0,.54);
+   font-size: .85rem;
+}
+
+.ant-card-body{
+    padding: 10px 10px 5px 10px !important;
+}
+
+.navbar__hompage{
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+}

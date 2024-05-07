@@ -1,0 +1,123 @@
+.userAdmin{
+    display: flex;
+    background-color: #ebebeb;
+}
+
+.shop_left1{
+min-height: 1000px;
+width: 230px;
+}
+
+.main_admin{
+    width: 100%;
+    color: #757575;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.main_admin h3{
+    color: black;
+    margin-left: 20px;
+}
+
+.div_table {
+    /* margin: 20px;     */
+    margin-top: 30px;
+}
+
+.table_users {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table_users th,
+.table_users td {
+    padding: 20px;
+    text-align: center;
+    border: none;
+}
+
+.table_users th {
+    background-color: #f2f2f2;
+}
+
+.table_users tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.products_table2{
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    line-height: 30px;
+}
+
+.sum_order1{
+    flex: 0.4;
+}
+.active_order1{
+    flex: 0.2;
+}
+
+.name_order3{
+    flex: 0.2;
+}
+.active_order10{
+    flex: 0.2;
+}
+
+.active_order11{
+    padding: 0;    
+    cursor: pointer;
+    color: rgb(248,71,47);
+}
+
+.active h3{
+    color: rgb(248,71,47);
+}
+
+.active h4{
+    color: rgb(248,71,47);
+}
+
+.icon_{
+    color: rgb(248,71,47);
+    cursor: pointer;
+}
+
+.icon_:hover{
+    color: rgb(249, 116, 98);
+}
+
+.search_admin{
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    /* padding: 3px 0px; */
+    border-radius: 5px;
+}
+
+.search_admin input{
+    border: none;
+    outline: none;
+    padding-left: 10px;
+}
+
+.search_admin button{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding-top: 5px;
+}
+.search_admin button:hover{
+    color: #757575;
+}
+
+.userAdmin111{
+    display: flex;
+    align-items: center;
+    color: black;
+    padding:30px 20px 0px 20px;
+    justify-content: space-between;
+}

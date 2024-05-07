@@ -1,0 +1,276 @@
+.container_profile{
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: row;
+}
+.profile_left{
+    width: 250px;
+    padding: 30px;
+}
+.avatar_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.avatar_left1{
+    line-height: 10px;
+    margin-top: 20px;
+    width: 100px;
+}
+
+.fix_profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: gray;
+    cursor: pointer;
+}
+
+.down{
+    border: 1px solid rgb(234, 231, 231);
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.option_profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.option_profile:hover{
+    color: rgb(248,71,47);
+}
+
+.profile_right{
+    background-color: white;
+    margin: 20px 40px 40px 0;
+    padding: 20px 20px;
+    width: 100%;
+}
+
+.manager{
+    line-height: 10px;
+}
+.manager hr{
+   color: rgb(234, 231, 231)
+}
+
+.main_profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main_left{
+    flex: 0.7;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.main_left .label{
+    color: rgba(85,85,85,.8);
+    text-align: right;
+    padding-top: 30px;
+}
+.main_left .label1{
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 25px;
+}
+
+.main_left .label1 input{
+    height: 40px;
+    width: 500px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(224, 224, 224);
+    padding-left: 10px;
+    font-size: 18px;
+}
+.radio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.radio input{
+    width: 20px !important;
+    height: 20px !important;
+}
+.radio label{
+    padding-left: 6px;
+    padding-top: 4px;
+}
+
+.main_right{
+    flex: 0.3;
+    text-align: center;
+    margin: 50px auto;
+    border-left: 1px solid rgb(239, 239, 239);
+}
+
+.label1 button{
+    color: #fff;
+    position: relative;
+    overflow: visible;
+    outline: 0;
+    background: #ee4d2d;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 30px;
+    font-size: 15px;
+}
+.label1 button:hover{
+    background: #f37259;
+}
+
+.label123{
+    border: 1px solid gray;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.label123:hover{
+    border: 1px solid rgb(212, 212, 212);
+}
+
+/* Đơn mua */
+
+.profile_right123{
+    min-height: 740px;
+    background: #f5f5f5;
+    box-shadow: 0 0 0 2px #f5f5f5;
+}
+.total_order{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.header_donmua{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    font-size: .975rem;
+}
+
+.header_donmua1{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.header_donmua2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.header_donmua1Like{
+    background-color: rgb(238, 77, 45);
+    color: white;
+    padding: 3px;
+    border-radius: 3px;
+}
+.header_donmua1Chat{
+    display: flex;
+    align-items: center;
+    background-color: rgb(238, 77, 45);
+    color: #F5F5F5;
+    height: 20px;
+    padding: 5px 6px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.header_donmua1View{
+    display: flex;
+    align-items: center;
+    color: #555;
+    border: 1px solid rgba(0,0,0,.09);
+    height: 20px;
+    padding: 5px 6px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.header_donmua2Ship{
+    display: flex;
+    align-items: center;
+    color: #26aa99;
+    cursor: pointer;
+    gap: 8px;
+}
+.header_donmua2 button{
+    line-height: 24px;
+    color: #ee4d2d;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.sanpham{
+    /* display: flex; */
+    justify-content: space-between;
+    margin-top: 20px;
+    align-items: center ;
+}
+.sanpham1{
+    flex: 0.8;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px;
+    gap: 8px;
+    justify-content: space-between;
+}
+.sanpham2{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0,0,0,.87);
+    padding-right: 20px;
+}
+.header__all{
+    background-color: white;
+    border-radius: 5px;
+    padding: 12px 24px;
+    margin-bottom: 20px;
+}
+
+.price___order{
+    color: #ee4d2d;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.price___order1{
+    margin: 0 10px 0 0;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0,0,0,.8);
+}
+
+.thanhtien{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.sanpham11111{
+    /* flex: 0.8; */
+    align-items: center;
+}

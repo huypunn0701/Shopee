@@ -1,0 +1,12 @@
+.products_search{
+    margin: 20px
+}
+
+.products_search1{
+    margin-bottom: 30px;
+    text-align: center;
+    background-color: antiquewhite;
+    padding: 20px;
+    align-items: center;
+    border-radius: 5px;
+}

@@ -1,0 +1,109 @@
+.order_header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.order_header1{
+    background-color: #ee4d2d;
+    width: 120px;
+    height: 30px;
+    padding-top: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 40px;
+}
+.order_header1:hover{
+    background-color: #ed684d
+}
+.container_right1{
+    width: 100%;
+    color: #757575;
+    background-color: white;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.order_table{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    height:50px ;
+    align-items: center;
+    background: #f6f6f6;
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid #e8e8e8;
+    /* padding: 0 20px; */
+    text-align: center;
+}
+
+.name_order{
+    width: 40%;
+}
+.name_order1{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+}
+.sum_order{
+    width: 20%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+.status_order{
+    width: 20%;
+    margin: auto;
+}
+.active_order{
+    width: 10%;
+    margin: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.order_table2{
+    display: flex;
+    flex-direction: row ;
+    text-align: center;
+}
+.order_name{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    background: #f6f6f6;
+    padding-left: 20px;
+}
+.order_table1{
+    border-radius: 4px;
+    font-size: 15px;
+    border: 1px solid #e8e8e8;
+    margin-top: 20px;
+}
+
+.address{
+    display: flex;
+    align-items: center;
+    margin-left: 200px;
+    gap: 10px
+}
+
+.address p {
+    color: black;
+    font-size: 18px;
+}
+
+.table_table{
+    font-size: 18px;
+}
+
+
